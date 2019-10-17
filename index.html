@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8"/>
+<title>Login screen</title>
+</head>
+<body>
+    <style>
+        body {
+            background-color:oldlace;
+        }
+        div 
+        {
+            background-color:lightgray;
+            border: 2px solid lightgreen;
+            height: 70%;
+            width:25%;
+            text-align:center;
+            margin:0 auto;
+            margin-top:6%;
+        }
+        header 
+        {
+            margin-bottom:40px;
+            padding-top:40px;
+            position:center;
+            text-align:center;
+            font-size:24px;
+        }
+        input
+        {
+            margin-bottom:2.5%;
+        }
+        select {
+            margin-bottom:2.5%;
+        }
+        button {
+            margin-bottom:2.5%;
+        }
+        agreement {
+            margin-bottom:4%;
+        }
+    </style>
+    <div>
+        <header>Rejestracja</header>
+        <input type="text" id="name" placeholder="imię"/><br />
+        <input type="text" id="secondName" placeholder="drugie imię" /><br />
+        <input type="text" id="surrname" placeholder="nazwisko" /><br />
+        <input type="text" id="idNumber" placeholder="pesel" /><br />
+        <select>
+            <option value="1">Mężczyzna</option>
+            <option value="2">Kobieta</option>
+            <option value="3">Inna</option>
+        </select><br />
+        <input type="text" id="phoneNumber" placeholder="numer telefonu" /><br />
+        <input type="date" id="dateOfBirth" placeholder="data urodzenia"/><br />
+        <input type="text" id="adres" placeholder="adres zamieszkania" />
+        <input type="text" id="posCode" placeholder="kod-poztowy" />
+        <input type="text" id="town/post" placeholder="miasto/poczta" /><br />
+        <select name="województwo">
+            <option value="1">Dolnośląskie</option>
+            <option value="2">Kujawsko-Pomorskie</option>
+            <option value="3">Lubelskie</option>
+            <option value="4">Lubuskie</option>
+            <option value="5">Łódzkie</option>
+            <option value="6">Małopolskie</option>
+            <option value="7">Mazowieckie</option>
+            <option value="8">Opolskie</option>
+            <option value="9">Podkarpackie</option>
+            <option value="10">Podlaskie</option>
+            <option value="11">Pomorskie</option>
+            <option value="12">Śląskie</option>
+            <option value="13">Świętokrzyskie</option>
+            <option value="14">Warmińsko-Mazurskie</option>
+            <option value="15">Wielkopolskie</option>
+            <option value="16">Zachodniopomorskie</option>
+        </select><br />
+        <input type="text" id="email" placeholder="adres email"/><br />
+        Zgoda na warunki użytkownika <input type="checkbox" id="agreement"/><br />
+        <button>zarejsetruj</button>
+    </div>
+</body>
+</html>
