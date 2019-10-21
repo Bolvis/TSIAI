@@ -42,22 +42,22 @@
     </style>
     <div>
         <form action="form.php" method="post">
-        <header>Rejestracja</header>
-        <input type="text" name="name" placeholder="imię"/><br />
-        <input type="text" name="secondName" placeholder="drugie imię" /><br />
-        <input type="text" name="surname" placeholder="nazwisko" /><br />
-        <input type="text" name="idNumber" placeholder="pesel" /><br />
+        <header>Register</header>
+        <input type="text" name="name" placeholder="name"/><br />
+        <input type="text" name="secondName" placeholder="second name" /><br />
+        <input type="text" name="surname" placeholder="surname" /><br />
+        <input type="text" name="idNumber" placeholder="PESEL" /><br />
         <select name="sex">
-            <option value="1">Mężczyzna</option>
-            <option value="2">Kobieta</option>
-            <option value="3">Inna</option>
+            <option value="1">Man</option>
+            <option value="2">Woman</option>
+            <option value="3">Different</option>
         </select><br />
-        <input type="text" name="phoneNumber" placeholder="numer telefonu" /><br />
-        <input type="date" name="dateOfBirth" placeholder="data urodzenia"/><br />
-        <input type="text" name="adres" placeholder="adres zamieszkania" />
-        <input type="text" name="ZIPCode" placeholder="kod-poztowy" />
-        <input type="text" name="town/post" placeholder="miasto/poczta" /><br />
-        <select name="województwo">
+        <input type="text" name="phoneNumber" placeholder="phone number" /><br />
+        <input type="date" name="dateOfBirth" placeholder="birthday"/><br />
+        <input type="text" name="address" placeholder="address" />
+        <input type="text" name="ZIPCode" placeholder="ZIP" />
+        <input type="text" name="town/post" placeholder="town/post" /><br />
+        <select name="province">
             <option value="1">Dolnośląskie</option>
             <option value="2">Kujawsko-Pomorskie</option>
             <option value="3">Lubelskie</option>
@@ -75,9 +75,9 @@
             <option value="15">Wielkopolskie</option>
             <option value="16">Zachodniopomorskie</option>
         </select><br />
-        <input type="text" name="email" placeholder="adres email"/><br />
-        Zgoda na warunki użytkownika <input type="checkbox" name="agreement"/><br />
-        <input type="submit" value="wyślij"/>
+        <input type="text" name="email" placeholder="email address"/><br />
+        User's policy agreement <input type="checkbox" name="agreement"/><br />
+        <input type="submit" value="send"/>
 </form>
     </div>
 </body>
