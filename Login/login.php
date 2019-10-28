@@ -1,6 +1,12 @@
-<pre>
 <?php
 session_start();
-echo "Session id:" . session_id();
-$_SESSION['class']='3b';
-var_dump($_SESSION);
+$_SESSION['auth']=false;
+$password="admin1";
+$login="admin";
+
+if($_POST['login']==$login && $_POST['password']==$password)
+{
+        $_SESSION['auth']=true;
+        echo "<a href='test.php'>click here</a>";
+}
+
