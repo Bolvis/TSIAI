@@ -13,4 +13,5 @@ if(file_exists($file))
 else
     {
         header('Error 404 Page not found');
+        echo 'Siema nie dziala';
     }
