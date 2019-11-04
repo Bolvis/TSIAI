@@ -9,17 +9,17 @@ menu 1
 
 menu 2
 <ul>
-    <li><a href="INC\start">start</a></li>
-    <li><a href="INC\blog">blog</a></li>
-    <li><a href="INC\contact">contact</a></li>
-    <li><a href="INC\gallery">gallery</a></li>
-    <li><a href="INC\news">news</a></li>
+    <li><a href="INC\inc_start">start</a></li>
+    <li><a href="INC\inc_blog">blog</a></li>
+    <li><a href="INC\inc_contact">contact</a></li>
+    <li><a href="INC\inc_gallery">gallery</a></li>
+    <li><a href="INC\inc_news">news</a></li>
 </ul>
 menu 3
 <ul>
-    <li><a href="INC\start.html">start</a></li>
-    <li><a href="INC\blog.html">blog</a></li>
-    <li><a href="INC\contact.html">contact</a></li>
-    <li><a href="INC\gallery.html">gallery</a></li>
-    <li><a href="INC\news.html">news</a></li>
+    <li><a href="INC\inc_start.php">start</a></li>
+    <li><a href="inc_blog.php">blog</a></li>
+    <li><a href="INC\inc_contact.php">contact</a></li>
+    <li><a href="INC\inc_gallery.php">gallery</a></li>
+    <li><a href="INC\inc_news.php">news</a></li>
 </ul>
