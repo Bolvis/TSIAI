@@ -1,5 +1,4 @@
 <?php
 include 'contentLanguage.php';
-include 'detectLanguage.php';
+include 'dodatek.php';
 
-echo $jezyk;
