@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="get" action="form.php">
+    <div class="form-group">
+        <label for="wojewodztwo">Wybierz województwo:</label>
+        <select id="wojewodztwo" name="wojewodztwo">
+            <option>---</option>
+            <option value="2">2 WOJ. DOLNOŚLĄSKIE</option>
+            <option value="4">4 WOJ. KUJAWSKO-POMORSKIE</option>
+            <option value="6">6 WOJ. LUBELSKIE</option>
+            <option value="8">8 WOJ. LUBUSKIE</option>
+            <option value="10">10 WOJ. ŁÓDZKIE</option>
+            <option value="12">12 WOJ. MAŁOPOLSKIE</option>
+            <option value="14">14 WOJ. MAZOWIECKIE</option>
+            <option value="16">16 WOJ. OPOLSKIE</option>
+            <option value="18">18 WOJ. PODKARPACKIE</option>
+            <option value="20">20 WOJ. PODLASKIE</option>
+            <option value="22">22 WOJ. POMORSKIE</option>
+            <option value="24">24 WOJ. ŚLĄSKIE</option>
+            <option value="26">26 WOJ. ŚWIĘTOKRZYSKIE</option>
+            <option value="28">28 WOJ. WARMIŃSKO-MAZURSKIE</option>
+            <option value="30">30 WOJ. WIELKOPOLSKIE</option>
+            <option value="32">32 WOJ. ZACHODNIOPOMORSKIE</option>
+        </select>
+
+        <label for="powiat">Wybierz powiat:</label>
+        <select id="powiat" name="powiat">
+            <option>---</option>
+            <option value="11">62 Powiat policki</option>
+            <option value="62">62 Powiat m. Szczecin</option>
+            <option value="61">61 Powiat m. Koszalin</option>
+            <option value="1">3</option>
+        </select>
+
+        <label for="miasto">Wybierz miasto:</label>
+        <select id="miasto" name="miasto">
+            <option>---</option>
+            <option>Szczecin</option>
+            <option>Koszalin</option>
+            <option>Police</option>
+        </select>
+
+        <label for="typ">Wybierz typ szkoły:</label>
+        <select id="typ" name="typ">
+            <option>---</option>
+            <option value="16">Technikum</option>
+            <option value="16">Specjalny Ośrodek Szkolno-Wychowawczy</option>
+            <option>3</option>
+        </select>
+        <button type="submit" class="btn btn-success">Filtruj</button>
+    </div>
+</form>
+</body>
+</html>

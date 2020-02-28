@@ -15,11 +15,6 @@ if ($file) {
     fclose($file);
 }
 
-/*//WYPISANIE LISTY BEZ SORTOWANIA
-foreach ($lista as $key => $val) {
-    echo "$key = $val</br>";
-}*/
-
 //POSORTOWANIE LISTY I WYPISANIE
 sort($lista, SORT_NATURAL | SORT_FLAG_CASE);
 echo "</br>";
