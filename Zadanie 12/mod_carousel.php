@@ -16,7 +16,7 @@
             <img class="d-block w-100" src="k0GOGc3.jpg" alt="Third slide">
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100" src="DSC_8455.JPG" alt="Fourth slide">
+            <img class="d-block w-100" src="what-kind-of-guy-are-you-small.jpg" alt="Fourth slide">
         </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
