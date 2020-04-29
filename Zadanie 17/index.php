@@ -9,8 +9,7 @@ function f2($dzielna, $dzielnik = 1){
 }
 
 function f3($string){
-    $string = $string.$string;
-    return $string;
+    return strlen($string) * 2;
 }
 
 function f4($num){
@@ -30,9 +29,25 @@ function f5($tekst){
 }
 
 function f6($size){
-
+    echo "<tbody>";
+    for ($x = 1; $x <= $size; $x++){
+        echo "<tr>";
+        for($y = 1; $y <= $size; $y++){
+            echo "<td>W".$x." x K".$y."</td>";
+        }
+        echo "</tr>";
+    }
+    echo "</tbody>";
 }
 
 function f7($sizeX, $sizeY){
-    
+    echo "<tbody>";
+    for ($x = 1; $x <= $sizeX; $x++){
+        echo "<tr>";
+        for($y = 1; $y <= $sizeY; $y++){
+            echo "<td>".$x." x ".$y."</td>";
+        }
+        echo "</tr>";
+    }
+    echo "</tbody>";
 }
