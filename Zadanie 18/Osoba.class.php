@@ -9,7 +9,7 @@ class Osoba
     private $birthday;
     private $phoneNumber;
 
-    public function _construct($name, $surname,$sex,$birthday,$phoneNumber){
+    public function __construct($name, $surname,$sex,$birthday,$phoneNumber){
         $this -> name = $name;
         $this -> surname = $surname;
         $this -> sex = $sex;
@@ -18,7 +18,7 @@ class Osoba
     }
 
     public function getInfo(){
-        echo "Osoba {name: ".$this -> name.", surname: ".$this -> surname.", sex: ".$this -> sex.", birthday: ".$this -> birthday.", Phone Number: ".$this -> phoneNumber."}";
+        return "Osoba {name: ".$this -> name.", surname: ".$this -> surname.", sex: ".$this -> sex.", birthday: ".$this -> birthday.", Phone Number: ".$this -> phoneNumber."}";
     }
 
     public function getPhoneNumber(){
